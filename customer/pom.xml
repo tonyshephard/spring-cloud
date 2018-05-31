@@ -39,6 +39,18 @@
 			<version>1.16.16</version>
 			<scope>provided</scope>
 		</dependency>
+		
+		<!--  reactor dependency  -->		
+		<dependency>
+		    <groupId>io.projectreactor</groupId>	
+		    <artifactId>reactor-core</artifactId>
+		    <version>3.0.3.RELEASE</version>
+		</dependency>
+		<dependency>
+	        <groupId>io.projectreactor</groupId>
+	        <artifactId>reactor-test</artifactId> 
+	        <scope>test</scope>
+	    </dependency>
     </dependencies>
 
     <properties>
